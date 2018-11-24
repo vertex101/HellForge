@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "hellforge",
+  "name": "HellForge",
+  "description": "A mod for items based in the nether.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Vertex101"],
+  "credits": "McJty youtube mooding tutorial",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
