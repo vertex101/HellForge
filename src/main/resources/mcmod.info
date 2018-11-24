@@ -5,10 +5,10 @@
   "description": "A mod for items based in the nether.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://github.com/vertex101/HellForge",
   "updateUrl": "",
   "authorList": ["Vertex101"],
-  "credits": "McJty youtube mooding tutorial",
+  "credits": "McJty youtube modding tutorial",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

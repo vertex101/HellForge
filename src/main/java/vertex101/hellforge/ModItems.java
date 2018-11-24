@@ -12,6 +12,7 @@ public class ModItems {
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
+
         whisperingingot.initModel();
     }
 }
