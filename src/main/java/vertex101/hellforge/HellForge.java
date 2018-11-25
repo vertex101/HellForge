@@ -23,7 +23,7 @@ public class HellForge {
     public static CreativeTabs creativeTab = new CreativeTabs("hellforge") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModItems.whisperingingot);
+            return new ItemStack(ModItems.itemWhisperingIngot);
         }
     };
 

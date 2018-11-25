@@ -1,18 +1,21 @@
 package vertex101.hellforge.proxy;
 
 import net.minecraftforge.client.event.ModelRegistryEvent;
+import net.minecraftforge.client.model.obj.OBJLoader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
+import vertex101.hellforge.HellForge;
 import vertex101.hellforge.ModItems;
 
 @Mod.EventBusSubscriber(Side.CLIENT)
 public class ClientProxy extends CommonProxy {
+
     @Override
     public void preInit(FMLPreInitializationEvent e) {
-
         super.preInit(e);
+        OBJLoader.INSTANCE.addDomain(HellForge.MODID);
     }
 
     @SubscribeEvent

@@ -11,7 +11,7 @@ import vertex101.hellforge.HellForge;
 public class ItemWhisperingIngot extends Item {
 
     public ItemWhisperingIngot() {
-        setTranslationKey(HellForge.MODID + "whispering_ingot");
+        setTranslationKey(HellForge.MODID + ".whispering_ingot");
         setRegistryName(new ResourceLocation(HellForge.MODID, "whispering_ingot"));
         setCreativeTab(HellForge.creativeTab);
     }

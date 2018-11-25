@@ -1,0 +1,16 @@
+[
+{
+  "modid": "hellforge",
+  "name": "HellForge",
+  "description": "A mod for items based in the nether.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/vertex101/HellForge",
+  "updateUrl": "",
+  "authorList": ["Vertex101"],
+  "credits": "McJty youtube modding tutorial",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
